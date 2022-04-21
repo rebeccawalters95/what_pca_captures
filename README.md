@@ -1,6 +1,8 @@
 # How to determine what is captured in PCA of an MD trajectory
 
-Contains a file which allows users to take an MD trajectory of e.g. a protein and perform principal component analysis on the trajectory to determine which motions are the most 'important' (i.e., which parts of the protein move the most).
+Contains a file which allows users to take a molecular dynamics (MD) trajectory of e.g. a protein and perform principal component analysis (PCA) on the trajectory to determine which motions are the most 'important' (i.e., which parts of the protein move the most).
+
+For more informatio about PCA, eigenvalues, etc., see [this link.]{https://builtin.com/data-science/step-step-explanation-principal-component-analysis}
 
 Once PCA has been performed, users can see what motions are being captured along each PC by keeping all other eigenvalues the same, and just altering the eigenvalue of a specific prinicipal coordinate. 
 
